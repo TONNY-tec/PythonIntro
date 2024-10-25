@@ -28,9 +28,9 @@ print(marks>marks1 or marks2<marks3)
 print(marks<marks1 or marks2>marks3)
 print(marks>marks1 or marks2>marks3)
 
-# print(marks>marks1 not marks2<marks3)
-# print(marks<marks1 not marks2>marks3)
-# print(marks>marks1 not marks2>marks3)
+ print(not(marks>marks1 and marks2<marks3))
+ print(not(marks<marks1 or marks2>marks3))
+ print(not(marks>marks1 and marks2>marks3))
 
 
 
